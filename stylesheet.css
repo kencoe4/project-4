@@ -1,0 +1,205 @@
+html{
+    background-color: #21401F;
+    color: antiquewhite;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Alata;
+    src:url(fonts/Alata/Alata-Regular.ttf);}
+
+@font-face {
+    font-family: Libre_Baskerville;
+    src: url(fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);}
+
+  li{
+    float: left;
+  }
+
+li a{
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+  ul{
+    list-style-type:none;
+    padding: 0%;
+    margin-left: 40%;
+    overflow: hidden;
+    font-size: 12pt;
+    font-family: Alata;
+    color:antiquewhite;
+  }
+
+  hr{
+    border-style:solid;
+    border-color: antiquewhite;
+  }
+
+  h1{
+    font-family: Libre_Baskerville;
+    font-size: 41pt;
+  }
+
+  hr{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  h2{
+    font-family: Libre_Baskerville;
+    font-size: 24pt;
+    margin-left: 7%;
+  }
+
+  p{
+    font-family: Alata;
+    font-size: 12pt;
+    margin-left: 7%;
+    margin-right: 5%;
+    width: 380px;
+  }
+
+  #bio{
+    margin-left: 7%;
+  }
+
+  
+  #stars{
+   float: left;
+   margin-left: 33%;
+
+  }
+
+  #stars2{
+  float: right;
+  margin-right: 30%;
+  }
+
+  #contact-gif{
+    margin-left: 7%;
+  }
+
+#bio{
+  position:absolute;
+  top: 300px;
+  left: -5px;
+ 
+}
+
+#maggie{
+  position: absolute;
+  top: 300px;
+  left: 470px;
+}
+
+#sophie{
+ position: absolute;
+ top: 300px;
+ left: 890px;
+}
+#name1{
+  position: absolute;
+  left: 500px;
+  top: 580px;
+}
+
+#name2{
+  position: absolute;
+  top: 220px;
+ left: 1100px;
+}
+
+#introduction{
+  position:absolute;
+  top: 640px;
+  left: -5px;
+  padding-bottom: 5%;
+}
+
+#contact-nav{
+  display: block !important;
+  width: 120px;
+  list-style: none;
+  text-align: left;
+  margin-left: 6%;
+  line-height: 350%;
+}
+
+#contact-gif{
+  margin-left: 15%;
+}
+
+#swisscover{
+ margin-left: 100px;
+}
+
+#garden{
+  margin-left: 200px;
+}
+
+#diagram{
+margin-left: 150px;
+}
+
+#humanrights{
+
+}
+
+#chickadee{
+ 
+}
+
+#birding{
+  margin-left: 120px;
+}
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: 50%;
+  margin-bottom: 5%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#5c801e;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:antiquewhite;
+  font-size: 16px;
+  font-family: alata;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
